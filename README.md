@@ -3,7 +3,7 @@
 Trois scripts de génération de fractales, tous parallélisés (multiprocessing +
 Numba) et produisant des vidéos MP4.
 
-> **Dépendance commune : ce projet nécessite le dépôt [`lib`](../lib).**
+> **Dépendance commune : ce projet nécessite le dépôt [`lib`]https://github.com/Lain-Iwakvra/lib.**
 > Voir [Installation](#installation).
 
 | Script | Description | Sortie |
@@ -15,13 +15,10 @@ Numba) et produisant des vidéos MP4.
 ## Installation
 
 ```bash
-git clone https://github.com/<ton_compte>/lib.git
-cd lib && pip install numpy numba
-```
+# 1. récupérer lib en frère du dossier courant
+git clone https://github.com/Lain-Iwakvra/lib.git
 
-Puis, à côté du dépôt courant :
-
-```bash
+# 2. rendre lib.py importable depuis ce dossier
 ln -s ../lib/lib.py .
 ```
 
