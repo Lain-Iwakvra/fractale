@@ -1,0 +1,7 @@
+__pycache__/
+*.py[oc]
+*.mp4
+*.png
+output/
+videos/
+.numba_cache/
