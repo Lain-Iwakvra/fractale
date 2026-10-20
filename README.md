@@ -10,7 +10,7 @@ Numba) et produisant des vidéos MP4.
 |---|---|---|
 | `julia.py` | Film parcourant une courbe du plan des paramètres `c` (droite, cercles, cardioïde) | `julia_video.mp4` + 100 PNG |
 | `Mandelbrot.py` | Ensembles Multibrot `z → z^d + c` pour `d` = 1.0 → 9.9 | `mandelbrot_video.mp4` + 90 PNG |
-| `mandel+.py` | 11 variantes expérimentales (`f35` … `f45`) avec masquage `abs()` et `tanh` | `videos/*.mp4` (11 vidéos de 700 images) |
+| `mandel+.py` | Généralisation de l'ensembles Multibrot | `videos/*.mp4` (vidéo de 700 images) |
 
 ## Installation
 
